@@ -1,0 +1,3 @@
+mkdocs-material # mkdocs佈景主題套件
+jieba # 中文分詞套件，用於搜尋
+markdown-customblocks # 可以使用:::來建立<div>標籤
