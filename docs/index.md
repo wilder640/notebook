@@ -33,7 +33,7 @@ From hardware to cloud applications. Step by step.
 
         Each post is what I've learned, and I wrote them down to share. Hope you'll find something interesting there.
 
-        [Read news](blog/){.md-button}
+        [Read news](blog/index.md){.md-button}
 
     ::: col
 
