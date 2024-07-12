@@ -28,6 +28,7 @@ plugins:
       post_readtime: true # 是否依據字數計算預計閱讀時間並顯示
       archive: false # 是否顯示存檔頁面
       post_url_format: "{file}" # 設定blog post的url格式，預設為{date}/{slug}，故會加上日期，故若要在該篇文章引用同目錄其他元素時會有問題
+      pagination_per_page: 10
   - git-revision-date-localized: # 跟蹤文章git提交日期，並可設定顯示於文章底部
       type: date
       fallback_to_build_date: true
