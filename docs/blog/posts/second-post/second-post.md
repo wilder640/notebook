@@ -11,6 +11,15 @@ tags:
 
 ### 第一段
 
+!!! warning
+    不執行 SNAT 可能會導致來自伺服器的回覆流量直接傳送到客戶端，導致去回不同路情形。
+
+```shell linenums="1"
+config system setting
+  set snat-hairpin-traffic disable
+  end
+```
+
 Ut minim amet elit occaecat consequat. Sunt anim incididunt id voluptate in ea velit esse ad irure velit veniam officia. Minim cillum elit officia sint. Nulla proident irure cupidatat ex Lorem nostrud nostrud.
 
 Reprehenderit eiusmod culpa irure dolor aliqua ut sint irure velit duis. Eu velit dolor proident quis magna dolor ea eu culpa. Dolore ea do do in minim quis est nulla. Enim laboris occaecat laborum Lorem cillum.

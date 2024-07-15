@@ -7,6 +7,17 @@ repo_url: https://github.com/tbarol/book1 # Github Repository位置，用於cont
 theme:
   name: material # 使用material佈景主題
   language: zh-TW # 語系設定為繁體中文-台灣
+  palette: # 定義主題色彩
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/weather-night
+        name: 開啟深色模式
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: 關閉深色模式
   custom_dir: overrides # 定義複寫佈景主題的元件資料夾
   icon:
     tag:
@@ -56,6 +67,7 @@ plugins:
       manual: false
   - tags:
       enabled: true
+      tags_file: tags.md
 
 # Markdown Extensions
 markdown_extensions:
