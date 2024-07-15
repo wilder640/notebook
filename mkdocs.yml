@@ -38,7 +38,6 @@ theme:
 #Plugins
 plugins:
   - search: # 搜尋插件，在沒有設定plugin情況下預設會啟用，但若有設定的話要手動加入否則不會啟用
-      enable: true
       separator: '[\s\u200b\-]' # 繁體中文分隔方式（空白或沒有寬度的空白或連字符-）
   - blog: # 部落格插件
       enabled: true
@@ -85,6 +84,8 @@ markdown_extensions:
       slugify: !!python/object/apply:pymdownx.slugs.slugify #轉換slug為HTML相容的文字，沒有設定的話toc產生的連結會無法顯示
         kwds:
           case: lower
+  - pymdownx.tasklist: # 使任務列表的勾選框變成圖示
+      custom_checkbox: true
 # Custom styles and scripts
 extra_css: # 自定義的CSS檔案
   - assets/stylesheets/extra.css
