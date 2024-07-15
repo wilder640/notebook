@@ -11,7 +11,7 @@ tags:
 
 ### 第一段
 
-!!! qutoe
+!!! warning
     不執行 SNAT 可能會導致來自伺服器的回覆流量直接傳送到客戶端，導致去回不同路情形。
 
 ```shell linenums="1"

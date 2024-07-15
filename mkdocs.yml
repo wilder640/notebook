@@ -67,6 +67,7 @@ plugins:
   - tags:
       enabled: true
       tags_file: tags.md
+  - awesome-pages
 
 # Markdown Extensions
 markdown_extensions:
@@ -95,3 +96,10 @@ extra:
     HTML5: html
     JavaScript: js
     CSS: css
+
+nav:
+  - Home: index.md
+  - Blog: blog/index.md
+  - Project:
+    - ...
+  - Tag: tags.md

@@ -13,7 +13,16 @@ category: jinja
 
 ### 第一段
 
-![img](tag_cloud.jpg)
+| Method      | Description                          |
+| :---------- | :----------------------------------- |
+| `GET`       | :material-check:     Fetch resource  |
+| `PUT`       | :material-check-all: Update resource |
+| `DELETE`    | :material-close:     Delete resource |
+
+<figure markdown="span">
+    ![img](tag_cloud.jpg)
+    <figcaption>圖片標題</figcaption>
+</figure>
 
 Sunt officia sint ipsum excepteur deserunt commodo cillum sunt cupidatat aliqua ad consequat. Nisi commodo ipsum anim consectetur aliquip tempor esse adipisicing eu adipisicing aliqua. Occaecat exercitation nulla ullamco officia officia. Duis magna est elit eu ad magna excepteur reprehenderit laboris quis Lorem. Ipsum duis proident proident laborum consectetur Lorem Lorem ut.
 
