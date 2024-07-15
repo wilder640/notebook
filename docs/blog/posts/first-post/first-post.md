@@ -13,11 +13,12 @@ category: jinja
 
 ### 第一段
 
-| Method      | Description                          |
-| :---------- | :----------------------------------- |
-| `GET`       | :material-check:     Fetch resource  |
-| `PUT`       | :material-check-all: Update resource |
-| `DELETE`    | :material-close:     Delete resource |
+| Method   | Description                          | Column |
+| :------- | :----------------------------------- | ------ |
+| `GET`    | :material-check:     Fetch resource  | ffff   |
+| `PUT`    | :material-check-all: Update resource | eeee   |
+| `DELETE` | :material-close:     Delete resource | ddddd  |
+| test     | :material-close:     Delete resource | ccccd  |
 
 <figure markdown="span">
     ![img](tag_cloud.jpg)

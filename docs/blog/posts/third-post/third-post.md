@@ -18,6 +18,16 @@ comments: true
 from os import text
 print("aaa")
 ```
+=== "Tab 1"
+    Aliquip pariatur magna laboris nulla sint eiusmod cupidatat aute et non dolor excepteur reprehenderit aliqua. **content**.
+
+    Multiple paragraphs.
+
+=== "Tab 2"
+    More Tempor ut aute in reprehenderit.Consequat minim officia aliqua ex. **content**.
+
+    - list item a
+    - list item b
 
 * list1
   * child-list1

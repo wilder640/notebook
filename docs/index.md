@@ -13,10 +13,9 @@ hide:
     .md-typeset .cover + hr {
         display: none;
     } /*隱藏頁面分隔線*/
-    .md-typeset h1,
-    .md-typeset h2 {
-        color: navy;
-    } /*設定h1及h2標籤字體顏色*/
+    .md-source-file {
+        display: none;
+    }
 </style>
 
 # Code Inside Out

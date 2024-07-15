@@ -32,6 +32,7 @@ theme:
     - navigation.top # 顯示back-to-top按鈕
     - navigation.indexes # 當資料夾內僅有一個檔案時就直接顯示該檔案而不是資料夾->檔案
     - toc.integrate # 文章內容右側導航整併到左側文章導航內
+    - content.tooltips # 啟用tooltips功能
     #- content.action.edit # 顯示Github檢視連結在導覽列
     #- content.action.view # 顯示Github編輯連結在導覽列
 
@@ -77,6 +78,9 @@ markdown_extensions:
   - customblocks # # 可以使用:::來建立<div>標籤
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
   - pymdownx.emoji: # 啟用內建emojis功能
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
