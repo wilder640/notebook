@@ -73,6 +73,7 @@ plugins:
 markdown_extensions:
   - attr_list # 允許增加mardown語法的HTML屬性或css class功能
   - md_in_html # 啟用在markdown內使用html語法功能
+  - admonition # 啟用告警框功能
   - customblocks # # 可以使用:::來建立<div>標籤
   - pymdownx.superfences
   - pymdownx.details
