@@ -13,10 +13,10 @@
     --md-accent-bg-color: #fff;
     --md-accent-bg-color--light: hsla(0,0%,100%,.7);
 }
-/* logo */
+/* logo 
 .md-logo {
     color: orangered;
-}
+}*/
 /* search input */
 [data-md-color-primary] .md-search__form {
     background-color: transparent;

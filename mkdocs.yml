@@ -96,10 +96,11 @@ extra:
     HTML5: html
     JavaScript: js
     CSS: css
+  disqus: "vuquangtrong-github-io"
+
 
 nav:
   - Home: index.md
   - Blog: blog/index.md
-  - Project:
-    - ...
   - Tag: tags.md
+  - ...
