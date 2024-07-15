@@ -4,7 +4,6 @@
 
 {# sharing #}
 {% block extrahead %}
-    {% include "partials/ads.html" %}
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ page_title }} - {{ config.site_name }}" />
@@ -20,14 +19,4 @@
     <meta name="twitter:title" content="{{ page_title }} - {{ config.site_name }}" />
     <meta name="twitter:description" content="{{ page_description }} - {{ config.site_description }}" />
     <meta name="twitter:image" content="{{ page_image }}" />
-{% endblock %}
-
-{# navigation #}
-{% block site_nav %}
-    {% include "partials/navigation.html" %}
-{% endblock %}
-
-{# content #}
-{% block content %}
-    {% include "partials/post-content.html" %}
 {% endblock %}

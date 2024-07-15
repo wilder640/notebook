@@ -1,13 +1,19 @@
 site_name: My Docs
 site_url: https://tbarol.github.io/book1 # 網站位置
 repo_url: https://github.com/tbarol/book1 # Github Repository位置，用於content.action.view設定
-edit_uri: edit/main/docs/ # Github Repository編輯位置，用於content.action.edit設定
+#edit_uri: edit/main/docs/ # Github Repository編輯位置，用於content.action.edit設定
 
 # Theme
 theme:
   name: material # 使用material佈景主題
   language: zh-TW # 語系設定為繁體中文-台灣
   custom_dir: overrides # 定義複寫佈景主題的元件資料夾
+  icon:
+    tag:
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css:  fontawesome/brands/css3
+
   features:
     - search.suggest # 輸入搜尋字元時會依據打的字元顯示下一個可能的字元
     - search.highlight # 是否要將搜尋的字元以高亮方式凸顯
@@ -15,8 +21,8 @@ theme:
     - navigation.top # 顯示back-to-top按鈕
     - navigation.indexes # 當資料夾內僅有一個檔案時就直接顯示該檔案而不是資料夾->檔案
     - toc.integrate # 文章內容右側導航整併到左側文章導航內
-    - content.action.edit # 顯示Github檢視連結在導覽列
-    - content.action.view # 顯示Github編輯連結在導覽列
+    #- content.action.edit # 顯示Github檢視連結在導覽列
+    #- content.action.view # 顯示Github編輯連結在導覽列
 
 #Plugins
 plugins:
@@ -33,6 +39,22 @@ plugins:
       type: date
       fallback_to_build_date: true
       enable_creation_date: true
+      enabled: true
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
+  - tags:
       enabled: true
 
 # Markdown Extensions
@@ -53,5 +75,9 @@ markdown_extensions:
 # Custom styles and scripts
 extra_css: # 自定義的CSS檔案
   - assets/stylesheets/extra.css
-extra_javascript: # 自定義的javascript
-  - assets/javascripts/extra.js
+
+extra:
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
