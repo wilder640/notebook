@@ -1,6 +1,6 @@
 site_name: My Docs
-site_url: https://tbarol.github.io/book1 # 網站位置
-repo_url: https://github.com/tbarol/book1 # Github Repository位置，用於content.action.view設定
+site_url: https://wilder640.github.io/notebook/ # 網站位置
+repo_url: https://github.com/wilder640/notebook # Github Repository位置，用於content.action.view設定
 #edit_uri: edit/main/docs/ # Github Repository編輯位置，用於content.action.edit設定
 
 # Theme
