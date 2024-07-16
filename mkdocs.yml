@@ -102,6 +102,9 @@ extra_css: # 自定義的CSS檔案
   - assets/stylesheets/extra.css
 
 extra:
+  analytics:
+    provider: google
+    property: G-8XT8XBW7BK
   tags:
     HTML: html
     JavaScript: js
