@@ -1,7 +1,6 @@
 ---
 title: Home
 description: ""
-disqus: ""
 hide:
     - navigation
 ---
@@ -18,11 +17,13 @@ hide:
     }
 </style>
 
-# Code Inside Out
+# 技術隨筆
 
-Interesting stuff in Embedded Systems and IoT Applications.\
-From hardware to cloud applications. Step by step.
-(ﾉ ◕ ヮ ◕)ﾉ*:・ﾟ ✧
+Exercitation veniam irure ad cillum ullamco id ullamco commodo magna consectetur pariatur irure. Eu nostrud ea adipisicing labore veniam ad anim do enim. Incididunt quis reprehenderit excepteur cillum do dolor velit. Dolor nostrud ea ea ipsum incididunt exercitation. Eu aliqua ut sunt dolore. Enim pariatur labore consequat nostrud esse tempor ad dolor non excepteur tempor ex est. Velit non occaecat ea ullamco.
+
+Ut eiusmod occaecat laborum laborum proident sint tempor nostrud in ea nulla aute sit. Velit ipsum dolore magna tempor in amet magna fugiat. Laborum nulla sit excepteur dolore duis veniam proident eiusmod veniam dolor cillum eu.
+
+Cillum anim veniam nulla tempor deserunt quis proident sunt officia est aute adipisicing. Consequat consectetur ea magna ut do sint consequat ullamco sunt cillum culpa eiusmod magna. Officia qui magna ex aliqua esse excepteur sint tempor. Do enim adipisicing ad exercitation sit cillum veniam. Duis sit ad adipisicing labore elit. Veniam minim adipisicing minim ullamco occaecat est nisi ea nostrud ex ullamco et ex. Id reprehenderit consequat nostrud fugiat et amet cillum voluptate velit mollit ullamco.
 
 ::: row
 
@@ -30,7 +31,7 @@ From hardware to cloud applications. Step by step.
 
         ## :material-book: Blog
 
-        Each post is what I've learned, and I wrote them down to share. Hope you'll find something interesting there.
+        Ex do nulla culpa duis veniam est eiusmod irure qui anim cillum elit laborum laborum.
 
         [Read news](blog/index.md){.md-button}
 
@@ -38,6 +39,6 @@ From hardware to cloud applications. Step by step.
 
         ## :material-file-code: Projects
 
-        A list of my projects which are done for learning and practicing in free time. Wanna give me a hand ?! Let's do it together.
-
+        Officia eu elit sunt anim proident cupidatat ipsum qui veniam nisi.
+        
         [See projects](projects/){.md-button}

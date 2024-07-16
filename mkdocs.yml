@@ -24,6 +24,8 @@ theme:
       html: fontawesome/brands/html5
       js: fontawesome/brands/js
       css:  fontawesome/brands/css3
+      k8s: material/kubernetes
+      python: material/language-python
 
   features:
     - search.suggest # 輸入搜尋字元時會依據打的字元顯示下一個可能的字元
@@ -33,6 +35,8 @@ theme:
     - navigation.indexes # 當資料夾內僅有一個檔案時就直接顯示該檔案而不是資料夾->檔案
     - toc.integrate # 文章內容右側導航整併到左側文章導航內
     - content.tooltips # 啟用tooltips功能
+    - content.code.copy # 啟用程式碼區塊複製功能
+    - content.code.annotate # 啟用程式碼區塊註解告警功能
     #- content.action.edit # 顯示Github檢視連結在導覽列
     #- content.action.view # 顯示Github編輯連結在導覽列
 
@@ -51,7 +55,7 @@ plugins:
       fallback_to_build_date: true
       enable_creation_date: true
       enabled: true
-  - glightbox:
+  - glightbox: # 圖片燈箱功能
       touchNavigation: true
       loop: false
       effect: zoom
@@ -65,7 +69,7 @@ plugins:
       background: white
       shadow: true
       manual: false
-  - tags:
+  - tags: # 啟用tag功能
       enabled: true
       tags_file: tags.md
   - awesome-pages
@@ -76,9 +80,11 @@ markdown_extensions:
   - md_in_html # 啟用在markdown內使用html語法功能
   - admonition # 啟用告警框功能
   - customblocks # # 可以使用:::來建立<div>標籤
-  - pymdownx.superfences
   - pymdownx.details
-  - pymdownx.tabbed:
+  - pymdownx.highlight # 程式區塊程式語法凸顯功能
+  - pymdownx.superfences
+  - pymdownx.inlinehilite # 啟用一般區域凸顯一段程式碼功能
+  - pymdownx.tabbed: # 啟用表格頁籤功能
       alternate_style: true
       combine_header_slug: true
   - pymdownx.emoji: # 啟用內建emojis功能
@@ -97,14 +103,14 @@ extra_css: # 自定義的CSS檔案
 
 extra:
   tags:
-    HTML5: html
+    HTML: html
     JavaScript: js
     CSS: css
-  disqus: "vuquangtrong-github-io"
-
+    Kubernetes: k8s
+    Python: python
 
 nav:
   - Home: index.md
   - Blog: blog/index.md
-  - Tag: tags.md
+  - Tags: tags.md
   - ...

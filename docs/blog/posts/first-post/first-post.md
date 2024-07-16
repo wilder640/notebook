@@ -6,6 +6,7 @@ banner: tag_cloud.jpg
 tags:
     - css
     - JavaScript
+    - Kubernetes
 category: jinja
 ---
 

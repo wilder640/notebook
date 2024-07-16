@@ -5,6 +5,7 @@ date: 2021-05-05
 banner: tag_cloud.jpg
 tags:
     - html
+    - Python
 ---
 
 ## 第二篇文章
