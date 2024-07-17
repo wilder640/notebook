@@ -146,27 +146,7 @@ body[data-md-color-scheme="slate"] {
     background-color: var(--color);
     color: white;
 }
-/* columns */
-.md-typeset .row {
-display: flex;
-flex-direction: row;
-}
-.md-typeset .row .col {
-    width: 100%;
-    padding: 0 1em;
-}
-.md-typeset .row.bordered .col {
-    border: 1px solid lightgray;
-}
-.md-typeset .row.bordered .col {
-    border: 1px solid lightgray;
-}
-.md-typeset .row .col:first-of-type {
-    padding-left: 0;
-}
-.md-typeset .row .col:last-of-type {
-    padding-right: 0;
-}
+
 /* button */
 .md-typeset .md-button {
     /* background-color: orangered; */
