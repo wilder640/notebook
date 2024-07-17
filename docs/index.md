@@ -1,6 +1,8 @@
 ---
 title: Home
 description: ""
+template: "redirect.html"
+location: "blog/"
 hide:
     - navigation
 ---

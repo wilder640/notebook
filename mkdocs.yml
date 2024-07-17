@@ -1,6 +1,6 @@
-site_name: My Docs
+site_name: Wilder's IT 沉浮日誌
 site_url: https://wilder640.github.io/notebook/ # 網站位置
-repo_url: https://github.com/wilder640/notebook # Github Repository位置，用於content.action.view設定
+#repo_url: https://github.com/wilder640/notebook # Github Repository位置，用於content.action.view設定
 #edit_uri: edit/main/docs/ # Github Repository編輯位置，用於content.action.edit設定
 
 # Theme
@@ -9,7 +9,7 @@ theme:
   language: zh-TW # 語系設定為繁體中文-台灣
   palette: # 定義主題色彩
     - scheme: default
-      primary: white
+      primary: indigo
       toggle:
         icon: material/weather-night
         name: 開啟深色模式
@@ -49,7 +49,7 @@ plugins:
       post_readtime: true # 是否依據字數計算預計閱讀時間並顯示
       archive: false # 是否顯示存檔頁面
       post_url_format: "{file}" # 設定blog post的url格式，預設為{date}/{slug}，故會加上日期，故若要在該篇文章引用同目錄其他元素時會有問題
-      pagination_per_page: 1
+      pagination_per_page: 10
   - git-revision-date-localized: # 跟蹤文章git提交日期，並可設定顯示於文章底部
       type: date
       fallback_to_build_date: true
@@ -72,7 +72,8 @@ plugins:
   - tags: # 啟用tag功能
       enabled: true
       tags_file: tags.md
-  - awesome-pages
+  - awesome-pages:
+      collapse_single_pages: true
 
 # Markdown Extensions
 markdown_extensions:
@@ -109,8 +110,4 @@ extra:
     Kubernetes: k8s
     Python: python
 
-nav:
-  - Home: index.md
-  - Blog: blog/index.md
-  - Tags: tags.md
-  - ...
+
